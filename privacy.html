@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Silver Springs Macaque Monitor</title>
+  <style>
+    /* ── Palette (mirrors lib/theme.js) ── */
+    :root {
+      --cream:       #FFF7E8;
+      --text:        #26312B;
+      --dark-blue:   #1E6B95;
+      --primary:     #3BA9E0;
+      --green:       #4F7A4A;
+      --gold:        #F4C66A;
+      --alert:       #E8894A;
+      --border:      #EBDFC4;
+      --blue-tint:   #E4F2FB;
+      --gold-tint:   #FBEED3;
+      --home-bg:     #1A4F72;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.75;
+      font-size: 1rem;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--home-bg);
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+    }
+    .site-name {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.5rem;
+    }
+    header h1 {
+      font-size: clamp(1.4rem, 4vw, 2rem);
+      font-weight: 400;
+      color: #fff;
+      letter-spacing: -0.01em;
+    }
+    .effective-date {
+      margin-top: 0.6rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.55);
+      letter-spacing: 0.04em;
+    }
+
+    /* ── Layout ── */
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 4rem;
+    }
+
+    /* ── Section headings ── */
+    h2 {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--green);
+      margin: 2.5rem 0 0.75rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--border);
+    }
+    h2:first-of-type { margin-top: 0; }
+
+    p { margin-bottom: 1rem; }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      margin: 0.25rem 0 1rem 1.4rem;
+    }
+    li { margin-bottom: 0.4rem; }
+
+    /* ── Highlight box ── */
+    .notice {
+      background: var(--blue-tint);
+      border-left: 3px solid var(--primary);
+      border-radius: 4px;
+      padding: 1rem 1.2rem;
+      margin-bottom: 1.5rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.9rem;
+      line-height: 1.6;
+      color: var(--dark-blue);
+    }
+
+    /* ── Links ── */
+    a {
+      color: var(--dark-blue);
+      text-decoration: underline;
+    }
+    a:hover { color: var(--primary); }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 1.5rem 1rem;
+      background: var(--border);
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.75rem;
+      color: var(--green);
+      letter-spacing: 0.04em;
+    }
+    footer a { color: var(--dark-blue); }
+  </style>
+</head>
+<body>
+
+<header>
+  <p class="site-name">SimiaFL · Silver Springs Macaque Monitor</p>
+  <h1>Privacy Policy</h1>
+  <p class="effective-date">Effective July 3, 2026 · Last updated July 3, 2026</p>
+</header>
+
+<main>
+
+  <div class="notice">
+    Short version: the app collects wildlife observation data and a location. It does not collect your name, email, or any account information. All data is used strictly for scientific research on the Silver River rhesus macaque population.
+  </div>
+
+  <h2>Who we are</h2>
+  <p>Silver Springs Macaque Monitor is a citizen science app operated by <strong>SimiaFL</strong>, an independent wildlife research initiative focused on the free-ranging rhesus macaque (<em>Macaca mulatta</em>) population of Central Florida. You can reach us at <a href="mailto:amensing@simiafl.com">amensing@simiafl.com</a> or learn more at <a href="https://simiafl.com">simiafl.com</a>.</p>
+
+  <h2>What we collect</h2>
+  <p>When you submit a sighting report or run a transect survey, the app may collect the following:</p>
+  <ul>
+    <li><strong>Location data</strong> — GPS coordinates and accuracy radius at the moment of a report, or a continuous GPS track during a transect survey. Location is the core scientific data; the app will not submit a record without it.</li>
+    <li><strong>Photos</strong> — only if you choose to take and attach one. Photos are never required.</li>
+    <li><strong>Observation details</strong> — structured fields you select: group size, behaviors observed, and distance from the river.</li>
+    <li><strong>Notes</strong> — free-text notes you type (optional, capped at 2,000 characters).</li>
+    <li><strong>Observer name</strong> — a name you choose to include (optional, capped at 120 characters). You may leave this blank.</li>
+    <li><strong>Anonymous device identifier</strong> — a randomly generated ID (UUID) created on your device the first time you launch the app. It contains no personal information and resets if you uninstall and reinstall the app. It is used solely as a data-quality signal to identify unusual submission patterns from a single source.</li>
+  </ul>
+  <p>We do <strong>not</strong> collect your email address, phone number, real name (unless you type it voluntarily into the observer-name field), contacts, browsing history, or any information unrelated to wildlife observation.</p>
+
+  <h2>How we use your data</h2>
+  <p>All data collected through this app is used exclusively for scientific research on the Silver River rhesus macaque population. Specifically, we use it to:</p>
+  <ul>
+    <li>Map the geographic distribution and movement of macaque groups over time.</li>
+    <li>Estimate population size and demographic composition using occupancy modeling.</li>
+    <li>Calculate detection probabilities using both positive sightings and absence surveys (transects where no monkeys were seen).</li>
+    <li>Share findings with wildlife managers, researchers, and the public to inform conservation and public-safety decisions.</li>
+  </ul>
+  <p>We do not use your data for advertising, marketing, or any commercial purpose.</p>
+
+  <h2>Data storage and security</h2>
+  <p>Observation data is transmitted over an encrypted connection (HTTPS) and stored in a cloud database managed by <a href="https://supabase.com" target="_blank" rel="noopener">Supabase</a>, which is hosted on AWS infrastructure in the United States. Row-level security rules prevent any app user from reading other users' submissions; only researchers with direct database access can view the full dataset.</p>
+  <p>Photos are stored in a secured cloud storage bucket. They are accessible via a non-guessable URL but are not linked publicly or indexed. If you submit a report without a photo, no image data is stored.</p>
+  <p>If your device has no network connection when you submit a report, the data is saved locally on your device in an encrypted store and uploaded automatically when connectivity is restored.</p>
+
+  <h2>Data sharing</h2>
+  <p>We do not sell, rent, or trade your data. We may share aggregated or de-identified research data (location clusters, sighting counts, transect summaries) with:</p>
+  <ul>
+    <li>Academic researchers and institutions studying primate ecology or wildlife management.</li>
+    <li>Florida Fish and Wildlife Conservation Commission (FWC) and affiliated agencies.</li>
+    <li>Silver River State Park management.</li>
+    <li>Peer-reviewed publications and scientific conferences.</li>
+  </ul>
+  <p>Any observer names you provide may appear in research acknowledgments. If you do not wish to be credited, leave the observer-name field blank.</p>
+  <p>We use Supabase as our data processor. Their privacy practices are described at <a href="https://supabase.com/privacy" target="_blank" rel="noopener">supabase.com/privacy</a>. Beyond Supabase, we do not share data with third-party services, analytics platforms, or advertisers.</p>
+
+  <h2>Location data and background access</h2>
+  <p>The app requests location permission to geotag your sightings and record transect routes. During an active transect survey, you may optionally grant background location permission so GPS recording continues when your phone is pocketed. Background location access is used <em>only</em> during an active transect and only while the survey is running. We do not track your location outside of an active survey session.</p>
+
+  <h2>Children</h2>
+  <p>This app is not directed at children under 13 years of age and does not knowingly collect data from children. If you believe a child has submitted data through this app, please contact us at <a href="mailto:amensing@simiafl.com">amensing@simiafl.com</a> and we will remove it.</p>
+
+  <h2>Your rights and data deletion</h2>
+  <p>Because submissions are anonymous by default (tied only to a randomly generated device ID, not to any account), it is not always possible to identify which records came from a specific person. However, if you submitted a report with an observer name and wish to have it removed, or if you have any other data request, please contact us at <a href="mailto:amensing@simiafl.com">amensing@simiafl.com</a> with enough detail for us to locate the record (approximate date, location, and any name you may have used), and we will honor the request promptly.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If we make material changes to this policy, we will update the effective date above and, where appropriate, notify users via an in-app notice on the next launch. Continued use of the app after a policy update constitutes acceptance of the revised policy.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or concerns about this policy should be directed to:</p>
+  <p>
+    SimiaFL Research<br />
+    <a href="mailto:amensing@simiafl.com">amensing@simiafl.com</a><br />
+    <a href="https://simiafl.com">simiafl.com</a>
+  </p>
+
+</main>
+
+<footer>
+  &copy; 2026 SimiaFL · <a href="https://simiafl.com">simiafl.com</a> · <a href="mailto:amensing@simiafl.com">amensing@simiafl.com</a>
+</footer>
+
+</body>
+</html>
